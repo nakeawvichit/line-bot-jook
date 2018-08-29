@@ -20,11 +20,7 @@ function reply(reply_token) {
         replyToken: reply_token,
         messages: [{
             type: 'text',
-            text: 'Hello'
-        },
-        {
-            type: 'text',
-            text: 'How are you?'
+            text: 'line://app/1603877870-aLBzZRXq'
         }]
     })
     request.post({
